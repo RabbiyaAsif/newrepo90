@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 14 # Replace with a supported Node.js version
+      nodejs: 18 # Replace with a supported Node.js version
     commands:
       - npm install
 
