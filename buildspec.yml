@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14 # You can specify your desired Node.js version
+    commands:
+      - npm install
+
+  build:
+    commands:
+      - npm run build # Replace with your build command
+
+artifacts:
+  files: 
+    - '**/*' # This includes all files in your project directory
+  discard-paths: yes
+
+cache:
+  paths:
+    - node_modules/
+
