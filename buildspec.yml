@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 14 # You can specify your desired Node.js version
+      nodejs: 16 # You can specify your desired Node.js version
     commands:
       - npm install
 
